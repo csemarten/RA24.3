@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "build": "react-scripts build",
     "start": "node http-server.js"
   },
   "keywords": [],
