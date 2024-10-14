@@ -6,6 +6,8 @@ app.get('/', (req, res) => {
   res.send('Hello MIT World');
 });
 
-app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}/`);
-});
+//app.listen(port, () => {
+//  console.log(`Server is running at http://localhost:${port}/`);
+//});
+
+exports.api = functions.https.onRequest(app);
