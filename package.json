@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "echo 'No build step required'",
+    "build": "react-scripts build",
     "start": "node http-server.js"
   },
   "keywords": [],
